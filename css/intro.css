@@ -1,0 +1,804 @@
+/* INTRO ANIMATION */
+
+/* KEYFRAMES */
+
+@keyframes grow {
+	0% {
+		transform: scale(0,0);
+        opacity: 0;
+	}
+	100% {
+		transform: scale(1,1);
+		opacity: 1;
+	}
+}
+@-webkit-keyframes grow {
+	0% {
+		-webkit-transform: scale(0,0);
+        opacity: 0;
+	}
+	100% {
+		-webkit-transform: scale(1,1);
+		opacity: 1;
+	}
+}
+
+@-moz-keyframes grow {
+	0% {
+		-moz-transform: scale(0,0);
+        opacity: 0;
+	}
+	100% {
+		-moz-transform: scale(1,1);
+		opacity: 1;
+	}
+}
+@-ms-keyframes grow {
+	0% {
+		-ms-transform: scale(0,0);
+        opacity: 0;
+	}
+	100% {
+		-ms-transform: scale(1,1);
+		opacity: 1;
+	}
+}
+@-o-keyframes grow {
+	0% {
+		-o-transform: scale(0,0);
+        opacity: 0;
+	}
+	100% {
+		-o-transform: scale(1,1);
+		opacity: 1;
+	}
+}
+/*====================================*/
+/* grow-X */
+@keyframes grow-x {
+	0% {
+		-webkit-transform: scaleX(0);
+	}
+	100% {
+		-webkit-transform: scaleX(1);
+	}
+}
+@-webkit-keyframes grow-x {
+	0% {
+		-webkit-transform: scaleX(0);
+	}
+	100% {
+		-webkit-transform: scaleX(1);
+	}
+}
+@-moz-keyframes grow-x {
+	0% {
+		-moz-transform: scaleX(0);
+	}
+	100% {
+		-moz-transform: scaleX(1);
+	}
+}
+@-ms-keyframes grow-x {
+	0% {
+		-ms-transform: scaleX(0);
+	}
+	100% {
+		-ms-transform: scaleX(1);
+	}
+}
+@-o-keyframes grow-x {
+	0% {
+		-o-transform: scaleX(0);
+	}
+	100% {
+		-o-transform: scaleX(1);
+	}
+}
+/*====================================*/
+/* grow-Y */
+@keyframes grow-y {
+	0% {
+		-webkit-transform: scaleY(0);
+	}
+	100% {
+		-webkit-transform: scaleY(1);
+	}
+}
+@-webkit-keyframes grow-y {
+	0% {
+		-webkit-transform: scaleY(0);
+	}
+	100% {
+		-webkit-transform: scaleY(1);
+	}
+}
+@-moz-keyframes grow-y {
+	0% {
+		-moz-transform: scaleY(0);
+	}
+	100% {
+		-moz-transform: scaleY(1);
+	}
+}
+@-ms-keyframes grow-y {
+	0% {
+		-ms-transform: scaleY(0);
+	}
+	100% {
+		-ms-transform: scaleY(1);
+	}
+}
+@-o-keyframes grow-y {
+	0% {
+		-o-transform: scaleY(0);
+	}
+	100% {
+		-o-transform: scaleY(1);
+	}
+}
+/*====================================*/
+/* fade-in */
+
+@-webkit-keyframes fade-in {
+  0% {
+    opacity: 0; }
+
+  100% {
+    opacity: 1; } }
+@-moz-keyframes fade-in {
+  0% {
+    opacity: 0; }
+
+  100% {
+    opacity: 1; } }
+
+@-ms-keyframes fade-in {
+  0% {
+    opacity: 0; }
+
+  100% {
+    opacity: 1; } }
+
+@-o-keyframes fade-in {
+  0% {
+    opacity: 0; }
+
+  100% {
+    opacity: 1; } }
+@keyframes fade-in {
+  0% {
+    opacity: 0; }
+
+  100% {
+    opacity: 1; } }
+/*====================================*/
+/* drop */
+@-moz-keyframes dropPhone {
+0% {
+		opacity: 0;
+		-moz-transform: translateY(-900px); }
+	10%{
+		opacity:0;
+	}
+	11%{
+		opacity: 1;
+	}
+	100% {
+		opacity:1;
+	    -moz-transform: translateY(0px); } 
+	}
+
+@-webkit-keyframes dropPhone {
+	0% {
+		opacity: 0;
+		-webkit-transform: translateY(-900px); }
+	10%{
+		opacity:0;
+	}
+	11%{
+		opacity: 1;
+	}
+	100% {
+		opacity:1;
+	    -webkit-transform: translateY(0px); } 
+	}
+@-ms-keyframes dropPhone {
+	0% {
+		opacity: 0;
+		-ms-transform: translateY(-900px); }
+	10%{
+		opacity:0;
+	}
+	11%{
+		opacity: 1;
+	}
+	100% {
+		opacity:1;
+	    -ms-transform: translateY(0px); } 
+	}
+@-o-keyframes dropPhone {
+	0% {
+		opacity: 0;
+		-o-transform: translateY(-900px); }
+	10%{
+		opacity:0;
+	}
+	11%{
+		opacity: 1;
+	}
+	100% {
+		opacity:1;
+	    -o-transform: translateY(0px); } 
+	}
+@keyframes dropPhone {
+0% {
+		opacity: 0;
+		transform: translateY(-900px); }
+	10%{
+		opacity:0;
+	}
+	11%{
+		opacity: 1;
+	}
+
+	100% {
+		opacity:1;
+	    transform: translateY(0px); } 
+	}
+/*===================================*/
+/*app-intro*/
+@-moz-keyframes app-intro {
+  0% {
+  	-moz-transform: scale(0); }
+  50% {
+     -moz-transform: scale(1.2); }
+  100% {
+  	-moz-transform: scale(1); }
+ }
+
+@-webkit-keyframes app-intro {
+  0% {
+  	-webkit-transform: scale(0); }
+  50% {
+    -webkit-transform: scale(1.2); }
+  100% {
+  	-webkit-transform: scale(1); }
+  }
+
+@-ms-keyframes app-intro {
+  0% {
+  	-ms-transform: scale(0); }
+  50% {
+    -ms-transform: scale(1.2); }
+  100% {
+  	-ms-transform: scale(1); }
+  }
+@-o-keyframes app-intro {
+  0% {
+  	-o-transform: scale(0); }
+  50% {
+    -o-transform: scale(1.2); }
+  100% {
+  	-o-transform: scale(1); }
+  }
+@keyframes app-intro {
+  0% {
+  	transform: scale(0); }
+  50% {
+    transform: scale(1.2);}
+  100% {
+  	transform: scale(1); } 
+  }
+/*===================================*/
+/*pulse*/
+@-moz-keyframes pulse {
+  0% {
+  	-moz-transform: scale(1);
+	-moz-box-shadow: 0 0 0px 0px rgba(0,0,0,0);
+  	 }
+  4% {
+    -moz-transform: scale(1.2);
+	-moz-box-shadow: 0 0 2px 2px rgba(0,0,0,0.2);
+	}
+  8% {
+  	-moz-transform: scale(1); 
+	-moz-box-shadow: 0 0 0px 0px rgba(0,0,0,0);
+  }
+  100% {
+  	-moz-transform: scale(1); } 
+  }
+
+@-webkit-keyframes pulse {
+   0% {
+  	-webkit-transform: scale(1);
+	-webkit-box-shadow: 0 0 0px 0px rgba(0,0,0,0);
+  	 }
+  4% {
+    -webkit-transform: scale(1.2);
+	-webkit-box-shadow: 0 0 2px 2px rgba(0,0,0,0.2);
+	}
+  8% {
+  	-webkit-transform: scale(1); 
+	-webkit-box-shadow: 0 0 0px 0px rgba(0,0,0,0);
+  }
+  100% {
+  	-webkit-transform: scale(1); } 
+  }
+@-ms-keyframes pulse {
+   0% {
+  	-ms-transform: scale(1);
+	-ms-box-shadow: 0 0 0px 0px rgba(0,0,0,0);
+  	 }
+  4% {
+    -ms-transform: scale(1.2);
+	-ms-box-shadow: 0 0 2px 2px rgba(0,0,0,0.2);
+	}
+  8% {
+  	-ms-transform: scale(1); 
+	-ms-box-shadow: 0 0 0px 0px rgba(0,0,0,0);
+  }
+  100% {
+  	-ms-transform: scale(1); } 
+  }
+@-o-keyframes pulse {
+   0% {
+  	-o-transform: scale(1);
+	-o-box-shadow: 0 0 0px 0px rgba(0,0,0,0);
+  	 }
+  4% {
+    -o-transform: scale(1.2);
+	-o-box-shadow: 0 0 2px 2px rgba(0,0,0,0.2);
+	}
+  8% {
+  	-o-transform: scale(1); 
+	-o-box-shadow: 0 0 0px 0px rgba(0,0,0,0);
+  }
+  100% {
+  	-o-transform: scale(1); } 
+  }
+@keyframes pulse {
+   0% {
+  	transform: scale(1);
+	box-shadow: 0 0 0px 0px rgba(0,0,0,0);
+  	 }
+  4% {
+    transform: scale(1.2);
+	box-shadow: 0 0 2px 2px rgba(0,0,0,0.2);
+	}
+  8% {
+  	transform: scale(1); 
+	box-shadow: 0 0 0px 0px rgba(0,0,0,0);
+  }
+  100% {
+  	transform: scale(1); } 
+  }
+
+ /*=================================*/
+ /* CARD-INTRO: SLIDE */
+ @-webkit-keyframes slide{
+	0% {
+		-webkit-transform: translateX(-200px);
+		opacity:0; }
+
+	20% {
+		opacity:1
+		  }
+
+	100% {
+		-webkit-transform: translateX(0px);  }
+	}
+ @-moz-keyframes slide{
+	0% {
+		-moz-transform: translateX(-200px);
+		opacity:0; }
+
+	20% {
+		opacity:1
+		  }
+
+	100% {
+		-moz-transform: translateX(0px);  }
+	}
+ @-ms-keyframes slide{
+	0% {
+		-ms-transform: translateX(-200px);
+		opacity:0; }
+
+	20% {
+		opacity:1
+		  }
+
+	100% {
+		-ms-transform: translateX(0px);  }
+	}
+ @-o-keyframes slide{
+	0% {
+		-o-transform: translateX(-200px);
+		opacity:0; }
+
+	20% {
+		opacity:1
+		  }
+
+	100% {
+		-o-transform: translateX(0px);  }
+	}
+ @keyframes slide{
+	0% {
+		transform: translateX(-200px);
+		opacity:0; }
+
+	20% {
+		opacity:1
+		  }
+
+	100% {
+		transform: translateX(0px);  }
+	}
+
+/*===================================*/
+/*card*/
+
+@-moz-keyframes simcard {
+	0% { -moz-transform: scale(0.8px);
+		-moz-transform: translateX(0px);  }
+
+	10% {
+	    -moz-transform: translateX(-100px); } 
+
+	20% {
+		-moz-transform: translateX(0px);  }
+
+	100% {-moz-transform: scale(0.8px);
+		-moz-transform: translateX(0px);  }
+	}
+
+@-webkit-keyframes simcard {
+	0% { -webkit-transform: scale(0.8px);
+		-webkit-transform: translateX(0px); }
+
+	10% { -webkit-transform: scale(0.8px);
+	    -webkit-transform: translateX(-100px); } 
+
+	20% { -webkit-transform: scale(0.8px);
+		-webkit-transform: translateX(0px);  }
+
+	100% { -webkit-transform: scale(0.8px);
+		-webkit-transform: translateX(0px);  }
+	}
+@-ms-keyframes simcard {
+	0% {-ms-transform: scale(0.8px)
+		-ms-transform: translateX(0px); }
+
+	10% {
+	    -ms-transform: translateX(-100px); } 
+
+	20% {
+		-ms-transform: translateX(0px);  }
+
+	100% {-ms-transform: scale(0.8px)
+		-ms-transform: translateX(0px);  }
+	}
+@-o-keyframes simcard {
+	0% { -o-transform: scale(0.8px)
+		-o-transform: translateX(0px); }
+
+	10% {
+	    -o-transform: translateX(-100px); } 
+
+	20% {
+		-o-transform: translateX(0px);  }
+
+	100% {-o-transform: scale(0.8px)
+		-o-transform: translateX(0px);  }
+	}
+
+@keyframes simcard {
+	0% { transform: scale(0.8px)
+		transform: translateX(0px); }
+
+	10% {
+	  	transform: translateX(-100px); } 
+
+	20% {
+		transform: translateX(0px);  }
+
+	100% {transform: scale(0.8px)
+		transform: translateX(0px);  }
+	}
+/* ANIMATIONS */
+
+
+header { 
+   -webkit-animation: fade-in 0.5s ease-in-out;
+   -moz-animation: fade-in 0.5s ease-in-out;
+   -ms-animation: fade-in 0.5s ease-in-out;
+   -o-animation: fade-in 0.5s ease-in-out;
+   animation: fade-in 0.5s ease-in-out;  
+}
+
+header img { 
+   -webkit-animation: fade-in 0.75s ease-in-out;
+   -moz-animation: fade-in 0.75s ease-in-out;
+   -ms-animation: fade-in 0.75s ease-in-out;
+   -o-animation: fade-in 0.75s ease-in-out;
+   animation: fade-in 0.75s ease-in-out; 
+}
+
+.content .top, .content .bottom {
+	-webkit-transform-origin: 0% 0%;
+	-moz-transform-origin: 0% 0%;
+	-ms-transform-origin: 0% 0%;
+	-o-transform-origin: 0% 0%;
+	transform-origin: 0% 0%;
+
+	-webkit-animation: grow-x 0.5s 1s;
+	-moz-animation: grow-x 0.5s 1s;
+	-ms-animation: grow-x 0.5s 1s;
+	-o-animation: grow-x 0.5s 1s;
+	animation: grow-x 0.5s 1s;
+
+	-webkit-animation-fill-mode: backwards;
+	-moz-animation-fill-mode: backwards;
+	-ms-animation-fill-mode: backwards;
+	-o-animation-fill-mode: backwards;
+	animation-fill-mode: backwards;
+}
+
+.phone, .mainboard, .mainboard-marker, .phonecard, .statusbar, .apps, .bottom-btn{
+	-webkit-animation: dropPhone 0.5s ease-out 1.5s;
+	-moz-animation: dropPhone 0.5s ease-out 1.5s;
+	-ms-animation: dropPhone 0.5s ease-out 1.5s;
+	-o-animation: dropPhone 0.5s ease-out 1.5s;
+	animation: dropPhone 0.5s ease-out 1.5s;
+
+	-webkit-animation-fill-mode: backwards;
+	-moz-animation-fill-mode: backwards;
+	-ms-animation-fill-mode: backwards;
+	-o-animation-fill-mode: backwards;
+	animation-fill-mode: backwards;
+}
+
+.simcard{
+	-webkit-animation: slide 4s ease-in-out 1.5s;
+	-moz-animation: slide 4s ease-in-out 1.5s;
+	-ms-animation: slide 4s ease-in-out 1.5s;
+	-o-animation: slide 4s ease-in-out 1.5s;
+	animation: slide 4s ease-in-out 1.5s;
+	
+	-webkit-animation-fill-mode: backwards;
+	-moz-animation-fill-mode: backwards;
+	-ms-animation-fill-mode: backwards;
+	-o-animation-fill-mode: backwards;
+	animation-fill-mode: backwards;
+} 
+
+.sdcard{
+	-webkit-animation: slide 4s ease-in-out 1s;
+	-moz-animation: slide 4s ease-in-out 1s;
+	-ms-animation: slide 4s ease-in-out 1s;
+	-o-animation: slide 4s ease-in-out 1s;
+	animation: slide 4s ease-in-out 1s;
+
+	-webkit-animation-fill-mode: backwards;
+	-moz-animation-fill-mode: backwards;
+	-ms-animation-fill-mode: backwards;
+	-o-animation-fill-mode: backwards;
+	animation-fill-mode: backwards;
+}
+
+.icon {
+	-webkit-animation: app-intro 0.25s ease-out 2.5s;
+	-moz-animation: app-intro 0.25s ease-out 2.5s;
+	-ms-animation: app-intro 0.25s ease-out 2.5s;
+	-o-animation: app-intro 0.25s ease-out 2.5s;
+	animation: app-intro 0.25s ease-out 2.5s;
+
+	-webkit-animation-fill-mode: backwards;
+	-moz-animation-fill-mode: backwards;
+	-ms-animation-fill-mode: backwards;
+	-o-animation-fill-mode: backwards;
+	animation-fill-mode: backwards; 
+} 
+
+.app-browser {
+	-webkit-animation: pulse 5s ease-out 5s infinite;
+	-moz-animation: pulse 5s ease-out 5s infinite;
+	-ms-animation: pulse 5s ease-out 5s infinite;
+	-o-animation: pulse 5s ease-out 5s infinite;
+	animation: pulse 5s ease-out 5s infinite;
+	
+	-webkit-animation-fill-mode: backwards;
+	-moz-animation-fill-mode: backwards;
+	-ms-animation-fill-mode: backwards;
+	-o-animation-fill-mode: backwards;
+	animation-fill-mode: backwards;
+}
+
+.app-phone img{
+	-webkit-animation: app-intro 0.25s ease-out 1.5s;
+	-moz-animation: app-intro 0.25s ease-out 1.5s;
+	-ms-animation: app-intro 0.25s ease-out 1.5s;
+	-o-animation: app-intro 0.25s ease-out 1.5s;
+	animation: app-intro 0.25s ease-out 1.5s;
+	
+	-webkit-animation-fill-mode: backwards;
+	-moz-animation-fill-mode: backwards;
+	-ms-animation-fill-mode: backwards;
+	-o-animation-fill-mode: backwards;
+	animation-fill-mode: backwards;
+}
+
+.app-phone {
+	-webkit-animation: pulse 8s ease-out 9s infinite;
+	-moz-animation: pulse 8s ease-out 9s infinite;
+	-ms-animation: pulse 8s ease-out 9s infinite;
+	-o-animation: pulse 8s ease-out 9s infinite;
+	animation: pulse 8s ease-out 9s infinite;
+
+	-webkit-animation-fill-mode: backwards;
+	-moz-animation-fill-mode: backwards;
+	-ms-animation-fill-mode: backwards;
+	-o-animation-fill-mode: backwards;
+	animation-fill-mode: backwards;
+}
+
+.app-messages img{
+	-webkit-animation: app-intro 0.25s ease-out 1.5s;
+	-moz-animation: app-intro 0.25s ease-out 1.5s;
+	-ms-animation: app-intro 0.25s ease-out 1.5s;
+	-o-animation: app-intro 0.25s ease-out 1.5s;
+	animation: app-intro 0.25s ease-out 1.5s;
+	
+	-webkit-animation-fill-mode: backwards;
+	-moz-animation-fill-mode: backwards;
+	-ms-animation-fill-mode: backwards;
+	-o-animation-fill-mode: backwards;
+	animation-fill-mode: backwards;
+}
+
+.app-message {
+	-webkit-animation: pulse 10s ease-out 10s infinite;
+	-moz-animation: pulse 10s ease-out 10s infinite;
+	-ms-animation: pulse 10s ease-out 10s infinite;
+	-o-animation: pulse 10s ease-out 10s infinite;
+	animation: pulse 10s ease-out 10s infinite;
+
+	-webkit-animation-fill-mode: backwards;
+	-moz-animation-fill-mode: backwards;
+	-ms-animation-fill-mode: backwards;
+	-o-animation-fill-mode: backwards;
+	animation-fill-mode: backwards;  */
+}
+
+.app-player img{
+	-webkit-animation: app-intro 0.25s ease-out 1.5s;
+	-moz-animation: app-intro 0.25s ease-out 1.5s;
+	-ms-animation: app-intro 0.25s ease-out 1.5s;
+	-o-animation: app-intro 0.25s ease-out 1.5s;
+	animation: app-intro 0.25s ease-out 1.5s;
+	
+	-webkit-animation-fill-mode: backwards;
+	-moz-animation-fill-mode: backwards;
+	-ms-animation-fill-mode: backwards;
+	-o-animation-fill-mode: backwards;
+	animation-fill-mode: backwards;
+}
+
+.app-player {
+	-webkit-animation: pulse 7s ease-out 13s infinite;
+	-moz-animation: pulse 7s ease-out 13s infinite;
+	-ms-animation: pulse 7s ease-out 13s infinite;
+	-o-animation: pulse 7s ease-out 13s infinite;
+	animation: pulse 7s ease-out 13s infinite;
+	
+	-webkit-animation-fill-mode: backwards;
+	-moz-animation-fill-mode: backwards;
+	-ms-animation-fill-mode: backwards;
+	-o-animation-fill-mode: backwards;
+	animation-fill-mode: backwards;
+}
+
+.app-mail img{
+	-webkit-animation: app-intro 0.25s ease-out 2.7s;
+	-moz-animation: app-intro 0.25s ease-out 2.7s;
+	-ms-animation: app-intro 0.25s ease-out 2.7s;
+	-o-animation: app-intro 0.25s ease-out 2.7s;
+	animation: app-intro 0.25s ease-out 2.7s;
+	
+	-webkit-animation-fill-mode: backwards;
+	-moz-animation-fill-mode: backwards;
+	-ms-animation-fill-mode: backwards;
+	-o-animation-fill-mode: backwards;
+	animation-fill-mode: backwards;
+}
+
+.app-mail {
+	-webkit-animation: pulse 8s ease-out 15s infinite;
+	-moz-animation: pulse 8s ease-out 15s infinite;
+	-ms-animation: pulse 8s ease-out 15s infinite;
+	-o-animation: pulse 8s ease-out 15s infinite;
+	animation: pulse 8s ease-out 15s infinite;
+	
+
+	-webkit-animation-fill-mode: backwards;
+	-moz-animation-fill-mode: backwards;
+	-ms-animation-fill-mode: backwards;
+	-o-animation-fill-mode: backwards;
+	animation-fill-mode: backwards;
+}
+
+.app-usb img{
+	-webkit-animation: app-intro 0.25s ease-out 2.4s;
+	-moz-animation: app-intro 0.25s ease-out 2.4s;
+	-ms-animation: app-intro 0.25s ease-out 2.4s;
+	-o-animation: app-intro 0.25s ease-out 2.4s;
+	animation: app-intro 0.25s ease-out 2.4s;
+	
+	-webkit-animation-fill-mode: backwards;
+	-moz-animation-fill-mode: backwards;
+	-ms-animation-fill-mode: backwards;
+	-o-animation-fill-mode: backwards;
+	animation-fill-mode: backwards;
+}
+
+.app-usb {
+	-webkit-animation: pulse 9s ease-out 18s infinite;
+	-moz-animation: pulse 9s ease-out 18s infinite;
+	-ms-animation: pulse 9s ease-out 18s infinite;
+	-o-animation: pulse 9s ease-out 18s infinite;
+	animation: pulse 9s ease-out 18s infinite;
+	
+
+	-webkit-animation-fill-mode: backwards;
+	-moz-animation-fill-mode: backwards;
+	-ms-animation-fill-mode: backwards;
+	-o-animation-fill-mode: backwards;
+	animation-fill-mode: backwards;
+}
+
+.app-wlan img{
+	-webkit-animation: app-intro 0.25s ease-out 1.9s;
+	-moz-animation: app-intro 0.25s ease-out 1.9s;
+	-ms-animation: app-intro 0.25s ease-out 1.9s;
+	-o-animation: app-intro 0.25s ease-out 1.9s;
+	animation: app-intro 0.25s ease-out 1.9s;
+	
+	-webkit-animation-fill-mode: backwards;
+	-moz-animation-fill-mode: backwards;
+	-ms-animation-fill-mode: backwards;
+	-o-animation-fill-mode: backwards;
+	animation-fill-mode: backwards;
+}
+
+.app-wlan {
+	-webkit-animation: pulse 10s ease-out 5s infinite;
+	-moz-animation: pulse 10s ease-out 5s infinite;
+	-ms-animation: pulse 10s ease-out 5s infinite;
+	-o-animation: pulse 10s ease-out 5s infinite;
+	animation: pulse 10s ease-out 5s infinite;
+	
+
+	-webkit-animation-fill-mode: backwards;
+	-moz-animation-fill-mode: backwards;
+	-ms-animation-fill-mode: backwards;
+	-o-animation-fill-mode: backwards;
+	animation-fill-mode: backwards;
+}
+
+.mainboard-marker{
+
+	-webkit-animation: app-intro 0.25s ease-in-out 2s;
+	-moz-animation: app-intro 0.25s ease-in-out 2s;
+	-ms-animation: app-intro 0.25s ease-in-out 2s;
+	-o-animation: app-intro 0.25s ease-in-out 2s;
+	animation: app-intro 0.25s ease-in-out 2s;
+
+	-webkit-animation-fill-mode: backwards;
+	-moz-animation-fill-mode: backwards;
+	-ms-animation-fill-mode: backwards;
+	-o-animation-fill-mode: backwards;
+	animation-fill-mode: backwards;
+	
+}

@@ -1,0 +1,304 @@
+/*
+
+BASIC STYLES
+Primary: #989796;
+
+*/
+
+/* MAIN */
+html{
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	height: 100%;
+	width: 100%;
+	font: normal normal 14px/23px Verdana,Geneva,sans-serif;
+}
+body {
+	width: 990px;
+	margin: 0 auto;
+}
+.clear {
+	clear: both;
+}
+
+/* HEADER */
+header {
+	height: 96px; 
+	background: #989796;
+	width: 990px;
+}
+header h1 {
+	margin: 0 0 0 40px;
+	float: left;
+	font: normal normal 27px/96px Arial,Geneva,sans-serif;
+}
+header img {
+	margin: 25px 40px 0 0 ;
+	float: right;
+}
+
+/* CONTENT */
+
+.content{
+	background: #ededed;
+	height: 672px;
+}
+
+/* .content */ h2 {
+	margin: 25px 0 25px 0;
+	font: normal normal 19px/40px Verdana,Geneva,sans-serif;
+	background: #cdcdcd;
+	padding: 0 20px;
+}
+.content .top {
+	background: #D4E5F7;
+}
+.content .top h2 {
+	background: #2581C4;
+}
+
+/* .content */ p {
+	font: normal normal 14px/19px Verdana,Geneva,sans-serif;
+	margin: 0 0 25px 0;
+	padding: 10px 20px 20px 20px;
+}
+.content .bottom {
+	background: #FFFAD2;
+}
+.content .bottom h2 {
+	margin: 0 0 25px 0;
+	background: #F39200;
+}
+.content .bottom p {
+	margin: 0 0 50px 0;
+}
+
+.leftcol {
+	width: 310px;
+	float: left;
+}
+.rightcol {
+	width: 680px;
+	height: 750px;
+	float: right;
+}
+.apps, .phone, .cards, .mainboard, .statusbar, .phonecard {
+	position: absolute;
+	z-index:100;
+}
+
+/* PHONE */
+
+.phone {
+	margin: 25px 165px;
+	height: 600px;
+	width: 300px;
+	background: #333333;
+	-webkit-border-radius: 40px;
+	-moz-border-radius: 40px;
+	border-radius: 40px;
+	overflow: hidden;
+	z-index:150;
+}
+.phone .phone-top {
+	height: 80px;	
+}
+.phone .phone-bottom {
+	height: 80px;
+	width: 350px;
+	position: absolute;
+	z-index:0;
+}
+.phone .phone-top .top-speaker {
+	display: inline-block;		
+	margin: 35px 110px;
+	width: 80px;
+	height: 10px;
+	background: #000;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+}
+.phone .phone-mid .mid-screen {
+	display: inline-block;		
+	height: 440px;
+	width: 260px;
+	background-image: url(../img/background.jpg);
+	margin: 0 20px;
+}
+
+.phone .phone-bottom .bottom-btn {
+	display: inline-block;		
+	height: 40px;
+	width: 55px;
+	background: #252525;
+	border: 2px solid #686868;
+	-webkit-border-radius: 15px;
+	-moz-border-radius: 15px;
+	border-radius: 15px;
+	margin: 18px 122.5px;
+	overflow:visible;
+}
+
+/*PHONE BACKSIDE / MAINBOARD */
+.mainboard{
+	height:600px;
+	width:300px;
+	background: #000;
+	margin: 30px 170px;
+
+	z-index:0;
+	-webkit-border-radius: 40px;
+	-moz-border-radius: 40px;
+	border-radius: 40px;
+}
+
+.mainboard img.mainboard-bg{
+	position:absolute;
+	margin: 225px 0 0 140px;
+	z-index:10;
+}
+
+.cpu{
+	position:absolute;
+	margin: 315px 0 0 207px;
+	height: 69px;
+	width: 69px;
+	z-index: 20;
+	background: url(../img/cpu.svg);
+	background-size:100%;
+}
+.ram{
+	position: absolute;
+	margin:404px 0 0 208px;
+	height: 48px;
+	width:75px;
+	z-index: 20;
+	background: url(../img/ram.svg);
+	background-size:100%;
+}
+.rom{
+	position:absolute;
+	margin: 459px 0 0 231px;
+	height: 85px;
+	width:46px;
+	z-index: 20;
+	background: url(../img/rom.svg);
+	background-size:100%;
+}
+
+/* CARDS */
+
+.phonecard{
+	z-index: 50;
+}
+.simcard img{
+	margin:150px 0 25px 477px;
+}
+
+.sdcard img {
+	margin:0 0 0 490px;
+}
+
+/* STATUSBAR */
+.statusbar{
+	margin: 105px 0 0 185px;
+	width:260px;
+	height:20px;
+	background: #000;
+	z-index:300;
+	overflow:hidden;
+}
+.statusbar>img{
+	position: absolute;
+	z-index:400;
+}
+
+.statusbar-unfolded{
+	width:260px;
+	height: 60px;
+	z-index:350;
+	visibility: hidden;
+	background-color: #434344;
+}
+
+.statusbar-unfolded img{
+	width:100%;
+}
+
+/* APPS */
+
+.apps {
+	margin: 125px 0 0 185px;
+	height: 450px;
+	width: 260px;
+	z-index: 200;
+	overflow: hidden;
+}
+.icon  {
+	height: 50px;
+	width: 50px;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	margin: 20px 0 0 27px;
+	float: left;
+}
+
+.apps img {
+	height: 50px;
+	width: 50px;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+}
+
+.mainboard{
+	z-index:0;
+}
+div.mainboard-marker, div.marker-picture{
+	width: 150px;
+	height: 150px;
+	-webkit-border-radius: 80px;
+	-moz-border-radius: 80px;
+	border-radius: 80px;
+	z-index: 500;	
+}
+div.mainboard-marker {
+	margin: 400px 350px;
+	position:absolute;
+	background: rgba(243, 146, 0, 0.23);
+	border: 5px solid #F39200;
+}
+
+div.marker-picture {
+	background: url(../img/marker-picture.svg);
+	opacity:0;
+}
+
+
+.hand{
+
+	position: absolute;
+	z-index: 500;
+	margin: 220px 0 0 680px;
+	opacity: 0;
+}
+
+.bottom-btn {
+	display: inline-block;		
+	height: 40px;
+	width: 55px;
+	background: #252525;
+	border: 2px solid #686868;
+	-webkit-border-radius: 15px;
+	-moz-border-radius: 15px;
+	border-radius: 15px;
+	margin: 18px 122.5px;
+	overflow:visible;
+
+	position: absolute;
+	margin: 565px 0 0 287px;
+	z-index: 500;
+}

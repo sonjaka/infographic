@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 16.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="60px"
+	 height="40px" viewBox="0 0 60 40" enable-background="new 0 0 60 40" xml:space="preserve">
+<g id="Ebene_1" display="none">
+	<polygon display="inline" fill="#1A1A1A" stroke="#000000" stroke-miterlimit="10" points="93.829,75.5 -19.5,75.5 -19.5,-5.5 
+		107.5,-5.5 107.5,60.256 	"/>
+</g>
+<g id="Ebene_2" display="none">
+	<path display="inline" fill="#FBB03B" d="M59,60.854C59,65.623,54.895,70,50.371,70H-5.146C-9.67,70-13,65.623-13,60.854V35.113
+		V9.96C-13,5.191-9.67,1-5.146,1h55.517C54.895,1,59,5.191,59,9.96V60.854z"/>
+	<g>
+		<g display="inline">
+			<rect x="-19" y="36" fill="#FBB03B" width="27" height="2"/>
+		</g>
+		<g display="inline">
+			<rect x="34" y="36" fill="#FBB03B" width="26" height="2"/>
+		</g>
+		<g display="inline">
+			<polygon fill="#FBB03B" points="8,44 6,44 6,28 19,28 19,17.382 2.274,-1.333 3.766,-2.667 21,16.618 21,30 8,30 			"/>
+		</g>
+		<g display="inline">
+			<polygon fill="#FBB03B" points="34.5,44.255 32.5,44.245 32.582,27.868 33.16,27.607 40.057,20 60,20 60,22 40.943,22 
+				34.576,29.023 			"/>
+		</g>
+		<g display="inline">
+			<polygon fill="#FBB03B" points="6.735,29.645 0.295,22 -19,22 -19,20 1.226,20 8.265,28.355 			"/>
+		</g>
+		<g display="inline">
+			
+				<rect x="33.195" y="-3.259" transform="matrix(0.7455 0.6665 -0.6665 0.7455 9.8242 -22.3602)" fill="#FBB03B" width="2" height="9.888"/>
+		</g>
+		<g display="inline">
+			
+				<rect x="23.43" y="6.833" transform="matrix(0.7398 0.6729 -0.6729 0.7398 14.8871 -13.1396)" fill="#FBB03B" width="2" height="11.686"/>
+		</g>
+	</g>
+	<g display="inline">
+		<defs>
+			<path id="SVGID_1_" d="M59,60.854C59,65.623,54.895,70,50.371,70H-5.146C-9.67,70-13,65.623-13,60.854V35.113V9.96
+				C-13,5.191-9.67,1-5.146,1h55.517C54.895,1,59,5.191,59,9.96V60.854z"/>
+		</defs>
+		<clipPath id="SVGID_2_">
+			<use xlink:href="#SVGID_1_"  overflow="visible"/>
+		</clipPath>
+		<g clip-path="url(#SVGID_2_)">
+			<line fill="none" stroke="#000000" stroke-miterlimit="10" x1="-13" y1="36.5" x2="11" y2="36.5"/>
+			<line fill="none" stroke="#000000" stroke-miterlimit="10" x1="35" y1="36.5" x2="60" y2="36.5"/>
+			<polyline fill="none" stroke="#000000" stroke-miterlimit="10" points="10.5,43 10.5,29.5 22.5,29.5 22.5,18.618 5.92,0.206 			
+				"/>
+			<polyline fill="none" stroke="#000000" stroke-miterlimit="10" points="34.663,43.04 34.625,28.909 34.735,28.55 40.814,21.5 
+				59,21.5 			"/>
+			<polyline fill="none" stroke="#000000" stroke-miterlimit="10" points="10.949,28.781 4.647,21.5 -13,21.5 			"/>
+			<line fill="none" stroke="#000000" stroke-miterlimit="10" x1="32.077" y1="8.034" x2="38.994" y2="0.302"/>
+			<line fill="none" stroke="#000000" stroke-miterlimit="10" x1="22.612" y1="18.618" x2="29.767" y2="10.748"/>
+		</g>
+	</g>
+</g>
+<g id="Ebene_3">
+	<path fill="#1A1A1A" d="M60,38c0,1.104-0.896,2-2,2H40.334c0,0-1.334-2.125-4.793-2.125c-2.593,0-4.792-0.041-4.792-0.041
+		L30.667,40c0,0-4.917,0-6.667,0s-4.833-5-7.333-5C15.5,35,2,35,2,35c-1.104,0-2-0.896-2-2V2c0-1.104,0.896-2,2-2h56
+		c1.104,0,2,0.896,2,2V38z"/>
+	<rect x="3" y="2" fill="#FBB03B" width="9" height="3"/>
+	<rect x="3" y="6" fill="#FBB03B" width="9" height="3"/>
+	<rect x="2" y="10" fill="#FBB03B" width="10" height="3"/>
+	<rect x="3" y="14" fill="#FBB03B" width="9" height="3"/>
+	<rect x="2" y="18" fill="#FBB03B" width="10" height="3"/>
+	<rect x="3" y="22" fill="#FBB03B" width="9" height="3"/>
+	<rect x="3" y="26" fill="#FBB03B" width="9" height="3"/>
+	<rect x="3" y="30" fill="#FBB03B" width="9" height="3"/>
+</g>
+</svg>
